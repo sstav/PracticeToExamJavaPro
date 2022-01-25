@@ -137,8 +137,6 @@ class ServerThread extends Thread implements Serializable{
 
 }
 
-
-
 class Server {
     public Server(String ip, int port) {
         ServerSocket sc = null;
@@ -161,10 +159,6 @@ class Server {
         }
 
         // Client Connected!
-
-
-
-
         System.out.println("Done..." + s.getRemoteSocketAddress());
         //CLose Socket
         try {
